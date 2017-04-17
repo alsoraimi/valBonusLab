@@ -1,0 +1,6 @@
+c:\users\abe\documents\visual studio 2015\Projects\valBonusLab\valBonusLab\bin\Debug\valBonusLab.exe.config
+c:\users\abe\documents\visual studio 2015\Projects\valBonusLab\valBonusLab\bin\Debug\valBonusLab.exe
+c:\users\abe\documents\visual studio 2015\Projects\valBonusLab\valBonusLab\bin\Debug\valBonusLab.pdb
+c:\users\abe\documents\visual studio 2015\Projects\valBonusLab\valBonusLab\obj\Debug\valBonusLab.csprojResolveAssemblyReference.cache
+c:\users\abe\documents\visual studio 2015\Projects\valBonusLab\valBonusLab\obj\Debug\valBonusLab.exe
+c:\users\abe\documents\visual studio 2015\Projects\valBonusLab\valBonusLab\obj\Debug\valBonusLab.pdb
