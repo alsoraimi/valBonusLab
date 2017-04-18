@@ -13,15 +13,17 @@ namespace valBonusLab
             string Prompt = "";
             int Min = 1;
             int Max = 100;
-             
-           // Console.WriteLine(GetInt(Prompt));
-            Console.WriteLine(GetIntWithinRange(Prompt,Min, Max));
+
+            Console.WriteLine(GetInt(Prompt));
+            Console.WriteLine(GetIntWithinRange(Prompt, Min, Max));
+            Console.WriteLine(GetDouble(Prompt));
         }
 
 
         public static int GetInt(string Prompt)
-             
-        { while (true)
+
+        {
+            while (true)
             {
                 Console.WriteLine("please enter a valid integer");
                 string userInput;
@@ -38,18 +40,18 @@ namespace valBonusLab
                 {
                     return newInput;
                 }
-            }  
-                
+            }
 
-               
-                
 
-        
+
+
+
+
         }
 
         public static int GetIntWithinRange(string Prompt, int Min, int Max)
         {
-            while (true) 
+            while (true)
             {
                 int min = 1;
                 int max = 100;
@@ -75,10 +77,33 @@ namespace valBonusLab
                 }
 
             }
-                
 
 
 
+
+        }
+
+        public static double GetDouble(string Prompt)
+        {
+            while (true)
+            {
+                Console.WriteLine("please enter a valid number");
+                string userInput;
+                double newInput;
+                userInput = Console.ReadLine();
+
+                if (!double.TryParse(userInput, out newInput))
+                {
+
+                    Console.WriteLine("not a number, please enter a valid number");
+                }
+
+                else
+                {
+                    return newInput;
+                }
+
+            }
         }
     }
 }
